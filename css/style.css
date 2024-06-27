@@ -118,9 +118,13 @@ body {
 /*===== FIXED BACKGROUND IMG =====*/
 
 .fixed-background {
-  overflow: hidden; /*-- Correction for iOS --*/
+  overflow: hidden;
+  padding: 10rem 0; /*-- Correction for iOS --*/
 }
-
+.fixed {
+  background-image: url('../img/matrix.jpg');
+  position: fixed;
+}
 
 /*-- Emoji Navbar --*/
 
@@ -199,3 +203,4 @@ Extra (xl) large devices (large desktops, 1200px and up)
   transform: translateZ(0);
   will-change: transform;
 }
+
